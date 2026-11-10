@@ -4,7 +4,7 @@ title: "Reproducibility archive for Target-Scale Sensitivity in Adaptive Pessimi
 type: software
 version: "1.2.0"
 date-released: 2026-11-10
-doi: 10.5281/zenodo.22984288
+doi: 10.5281/zenodo.24112035
 repository-code: "https://github.com/yusrilhelmi123/target-scale-sensitivity-ednet-kt4"
 authors:
   - family-names: "Setyawan"
