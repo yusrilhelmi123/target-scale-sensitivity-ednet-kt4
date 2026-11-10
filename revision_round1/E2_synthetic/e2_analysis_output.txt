@@ -1,0 +1,68 @@
+worlds 60 unique 60
+
+=== coverage summary
+beta=0.5: frac pairs count<2 0.003, zero 0.001, true behaviour 1.246, cql alpha median 0.5, aptq alpha_E mean 0.8532, scale choices {0.5: 20}
+beta=1.5: frac pairs count<2 0.157, zero 0.082, true behaviour 1.326, cql alpha median 0.2, aptq alpha_E mean 0.3538, scale choices {0.5: 20}
+beta=3.0: frac pairs count<2 0.461, zero 0.358, true behaviour 1.118, cql alpha median 0.2, aptq alpha_E mean 0.2576, scale choices {0.5: 20}
+
+=== H1: bias of learned own value (own - true), mean [95% boot over worlds]
+beta=0.5 offline  bias +4.114 [+4.012,+4.229]  frac worlds >0: 1.00   true value 4.706
+beta=0.5 cql      bias +2.874 [+2.767,+2.980]  frac worlds >0: 1.00   true value 3.929
+beta=0.5 aptq     bias +3.422 [+3.306,+3.535]  frac worlds >0: 1.00   true value 3.485
+beta=0.5 matched  bias +3.361 [+3.222,+3.493]  frac worlds >0: 1.00   true value 3.474
+beta=1.5 offline  bias +3.476 [+3.392,+3.564]  frac worlds >0: 1.00   true value 4.547
+beta=1.5 cql      bias +2.081 [+1.974,+2.185]  frac worlds >0: 1.00   true value 3.853
+beta=1.5 aptq     bias +2.677 [+2.499,+2.856]  frac worlds >0: 1.00   true value 3.506
+beta=1.5 matched  bias +2.484 [+2.238,+2.728]  frac worlds >0: 1.00   true value 3.467
+beta=3.0 offline  bias +2.608 [+2.464,+2.766]  frac worlds >0: 1.00   true value 3.654
+beta=3.0 cql      bias +1.353 [+1.270,+1.439]  frac worlds >0: 1.00   true value 2.781
+beta=3.0 aptq     bias +1.569 [+1.489,+1.641]  frac worlds >0: 1.00   true value 2.544
+beta=3.0 matched  bias +1.525 [+1.440,+1.604]  frac worlds >0: 1.00   true value 2.536
+
+=== H2: bias of FQE and empirical-MDP estimate (est - true)
+beta=0.5 offline  fqe  bias +2.865 [+2.796,+2.935]  frac>0 1.00
+beta=0.5 offline  emp  bias +3.012 [+2.935,+3.087]  frac>0 1.00
+beta=0.5 cql      fqe  bias +1.468 [+1.420,+1.519]  frac>0 1.00
+beta=0.5 cql      emp  bias +1.474 [+1.424,+1.520]  frac>0 1.00
+beta=0.5 aptq     fqe  bias +1.090 [+1.022,+1.161]  frac>0 1.00
+beta=0.5 aptq     emp  bias +1.094 [+1.026,+1.165]  frac>0 1.00
+beta=1.5 offline  fqe  bias +2.962 [+2.903,+3.024]  frac>0 1.00
+beta=1.5 offline  emp  bias +3.602 [+3.513,+3.695]  frac>0 1.00
+beta=1.5 cql      fqe  bias +1.219 [+1.174,+1.267]  frac>0 1.00
+beta=1.5 cql      emp  bias +1.216 [+1.170,+1.268]  frac>0 1.00
+beta=1.5 aptq     fqe  bias +1.082 [+0.897,+1.261]  frac>0 1.00
+beta=1.5 aptq     emp  bias +1.082 [+0.896,+1.266]  frac>0 1.00
+beta=3.0 offline  fqe  bias +2.334 [+2.192,+2.486]  frac>0 1.00
+beta=3.0 offline  emp  bias +3.058 [+2.839,+3.294]  frac>0 1.00
+beta=3.0 cql      fqe  bias +0.705 [+0.603,+0.805]  frac>0 1.00
+beta=3.0 cql      emp  bias +0.706 [+0.607,+0.808]  frac>0 1.00
+beta=3.0 aptq     fqe  bias +0.519 [+0.424,+0.623]  frac>0 1.00
+beta=3.0 aptq     emp  bias +0.520 [+0.422,+0.628]  frac>0 1.00
+
+--- pairwise ranking accuracy among offline/cql/aptq (3 pairs per world) vs TRUE ranking
+beta=0.5: accuracy own 0.667, fqe 1.000, emp 1.000  (chance 0.5; n pairs 60)
+beta=1.5: accuracy own 0.833, fqe 0.983, emp 0.983  (chance 0.5; n pairs 60)
+beta=3.0: accuracy own 0.917, fqe 0.983, emp 0.983  (chance 0.5; n pairs 60)
+beta=all: accuracy own 0.806, fqe 0.989, emp 0.989  (chance 0.5; n pairs 180)
+
+=== H3: Spearman(action_match, true improvement over behaviour), pooled over 4 policies x worlds
+beta=0.5: rho=-0.786 [-0.899,-0.645]  mean action match 0.190, mean true improvement +2.652, share of policies with true improvement>0: 1.00
+beta=1.5: rho=-0.849 [-0.926,-0.738]  mean action match 0.319, mean true improvement +2.517, share of policies with true improvement>0: 1.00
+beta=3.0: rho=-0.843 [-0.938,-0.703]  mean action match 0.516, mean true improvement +1.761, share of policies with true improvement>0: 1.00
+beta=all: rho=-0.817 [-0.867,-0.751]  mean action match 0.342, mean true improvement +2.310, share of policies with true improvement>0: 1.00
+
+--- per policy: mean action match / true improvement over behaviour
+beta=0.5: offline: am 0.144, impr +3.460; cql: am 0.197, impr +2.682; aptq: am 0.208, impr +2.238; matched: am 0.209, impr +2.227
+beta=1.5: offline: am 0.184, impr +3.221; cql: am 0.344, impr +2.527; aptq: am 0.369, impr +2.180; matched: am 0.379, impr +2.141
+beta=3.0: offline: am 0.325, impr +2.536; cql: am 0.555, impr +1.664; aptq: am 0.591, impr +1.426; matched: am 0.593, impr +1.418
+
+=== H4: paired true value aptq - matched (margin +/-0.10)
+beta=0.5: diff +0.0110 [+0.0021,+0.0220] within margin: yes; |diff|max 0.093; worlds |d|>0.10: 0/20; test-weighted disagreement 0.0046; d action match -0.0003
+beta=1.5: diff +0.0394 [+0.0211,+0.0580] within margin: yes; |diff|max 0.146; worlds |d|>0.10: 2/20; test-weighted disagreement 0.0298; d action match -0.0096
+beta=3.0: diff +0.0078 [+0.0004,+0.0167] within margin: yes; |diff|max 0.068; worlds |d|>0.10: 0/20; test-weighted disagreement 0.0056; d action match -0.0024
+beta=all: diff +0.0194 [+0.0113,+0.0282] within margin: yes; |diff|max 0.146; worlds |d|>0.10: 2/60; test-weighted disagreement 0.0133; d action match -0.0041
+
+=== extra: aptq vs best-tuned CQL true value (aptq - cql)
+beta=0.5: -0.444 [-0.539,-0.355]
+beta=1.5: -0.347 [-0.568,-0.140]
+beta=3.0: -0.238 [-0.382,-0.088]

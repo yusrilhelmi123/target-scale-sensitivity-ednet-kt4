@@ -1,0 +1,9 @@
+cql_alpha,validation_bellman_mse_mean_5seeds,validation_action_match_mean_5seeds,original_selection
+0.01,1.886,0.409,no
+0.02,1.811,0.5019,no
+0.03,1.7721,0.5667,no
+0.04,1.7545,0.579,no
+0.05,1.7485,0.6129,yes
+0.06,1.7473,0.6192,no
+0.08,1.7544,0.6839,no
+0.1,1.77,0.7036,no

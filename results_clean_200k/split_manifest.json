@@ -1,0 +1,27 @@
+{
+  "dataset": "DATA.csv (reconstructed 200,000-transition EdNet-KT4 subset)",
+  "dataset_sha256": "9a11461d6db774fc43ee784650a4abd77af45ec110bae553d3cc16919f4248f9",
+  "fractions": {
+    "test": 0.15,
+    "train": 0.7,
+    "validation": 0.15
+  },
+  "rows": 200000,
+  "split_seed": 20260728,
+  "test": {
+    "transition_count": 28610,
+    "user_count": 399,
+    "user_list_sha256": "072621e41a93186ab60745ceade951f7cce6a8a58bca64dbe6d2c8cdbf5043a9"
+  },
+  "train": {
+    "transition_count": 132756,
+    "user_count": 1867,
+    "user_list_sha256": "4a2512f88913be23764eb0c0466df0ea207b3d0de10102a8d6cc2b0428285212"
+  },
+  "users": 2665,
+  "validation": {
+    "transition_count": 38634,
+    "user_count": 399,
+    "user_list_sha256": "dfd46453737ca7a3d69383247d7a43d4e8715c7f4a56003711804acbfc568cb8"
+  }
+}

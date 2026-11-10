@@ -1,0 +1,275 @@
+[
+ {
+  "split": 5678,
+  "seed": 2026,
+  "final_alpha": 0.06983170912223612,
+  "action_match_aptq": 0.643384559971185,
+  "action_match_cql": 0.5053427782446872,
+  "n_differing_states": 22,
+  "test_share_differing_states": 0.14794693240485052,
+  "differing_states": [
+   {
+    "state": 145,
+    "test_share": 0.12231360307359827,
+    "top2_gap_aptq": 0.02201900815118929,
+    "top2_gap_cql": 0.04907897363549418,
+    "aptq_action": 4,
+    "cql_action": 1
+   },
+   {
+    "state": 1,
+    "test_share": 0.008284307840076839,
+    "top2_gap_aptq": 0.05488572098060773,
+    "top2_gap_cql": 2.0746015713779542e-05,
+    "aptq_action": 4,
+    "cql_action": 0
+   },
+   {
+    "state": 55,
+    "test_share": 0.0070536679073118025,
+    "top2_gap_aptq": 0.033633315102856276,
+    "top2_gap_cql": 0.04011056141421454,
+    "aptq_action": 4,
+    "cql_action": 1
+   },
+   {
+    "state": 10,
+    "test_share": 0.0036919197982951133,
+    "top2_gap_aptq": 0.030975282319039565,
+    "top2_gap_cql": 0.012227861294586972,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 282,
+    "test_share": 0.0027314203385760596,
+    "top2_gap_aptq": 0.06386297982000366,
+    "top2_gap_cql": 0.14047904895855723,
+    "aptq_action": 4,
+    "cql_action": 0
+   },
+   {
+    "state": 6,
+    "test_share": 0.001860967703205667,
+    "top2_gap_aptq": 0.02951600115223485,
+    "top2_gap_cql": 0.03577652954092736,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 166,
+    "test_share": 0.0005402809460919679,
+    "top2_gap_aptq": 0.24424420287081583,
+    "top2_gap_cql": 0.03912787375111293,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 45,
+    "test_share": 0.00048024972985952696,
+    "top2_gap_aptq": 0.04741619669947661,
+    "top2_gap_cql": 0.03705604584270361,
+    "aptq_action": 4,
+    "cql_action": 0
+   },
+   {
+    "state": 283,
+    "test_share": 0.00024012486492976348,
+    "top2_gap_aptq": 0.02653576419931114,
+    "top2_gap_cql": 0.1356394985504381,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 16,
+    "test_share": 0.0001800936486973226,
+    "top2_gap_aptq": 0.13478474105248361,
+    "top2_gap_cql": 0.033689953690379415,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 285,
+    "test_share": 0.00015007804058110217,
+    "top2_gap_aptq": 0.36912877680355494,
+    "top2_gap_cql": 0.007220976977711735,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 117,
+    "test_share": 0.00012006243246488174,
+    "top2_gap_aptq": 0.12730223886755443,
+    "top2_gap_cql": 0.1720226968919687,
+    "aptq_action": 0,
+    "cql_action": 1
+   },
+   {
+    "state": 468,
+    "test_share": 9.00468243486613e-05,
+    "top2_gap_aptq": 0.311907888450778,
+    "top2_gap_cql": 0.02078952545565471,
+    "aptq_action": 3,
+    "cql_action": 4
+   },
+   {
+    "state": 533,
+    "test_share": 9.00468243486613e-05,
+    "top2_gap_aptq": 0.0,
+    "top2_gap_cql": 0.04399188779086109,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 202,
+    "test_share": 3.0015608116220435e-05,
+    "top2_gap_aptq": 0.17065659460137428,
+    "top2_gap_cql": 0.23622122542039348,
+    "aptq_action": 1,
+    "cql_action": 4
+   },
+   {
+    "state": 324,
+    "test_share": 3.0015608116220435e-05,
+    "top2_gap_aptq": 0.09029548924017816,
+    "top2_gap_cql": 0.006403485122846719,
+    "aptq_action": 1,
+    "cql_action": 4
+   },
+   {
+    "state": 475,
+    "test_share": 3.0015608116220435e-05,
+    "top2_gap_aptq": 0.0730431756718577,
+    "top2_gap_cql": 0.019136818681214418,
+    "aptq_action": 4,
+    "cql_action": 1
+   },
+   {
+    "state": 492,
+    "test_share": 3.0015608116220435e-05,
+    "top2_gap_aptq": 0.11868778937403457,
+    "top2_gap_cql": 0.02385355027415803,
+    "aptq_action": 6,
+    "cql_action": 3
+   }
+  ]
+ },
+ {
+  "split": 9012,
+  "seed": 2030,
+  "final_alpha": 0.07278422316687366,
+  "action_match_aptq": 0.5513195182430038,
+  "action_match_cql": 0.66330145235565,
+  "n_differing_states": 9,
+  "test_share_differing_states": 0.12947219270279844,
+  "differing_states": [
+   {
+    "state": 145,
+    "test_share": 0.07970244420828905,
+    "top2_gap_aptq": 0.006413506785873935,
+    "top2_gap_cql": 0.020141010585686736,
+    "aptq_action": 1,
+    "cql_action": 4
+   },
+   {
+    "state": 187,
+    "test_share": 0.03103967410556146,
+    "top2_gap_aptq": 0.012655828587561757,
+    "top2_gap_cql": 0.008930876524450682,
+    "aptq_action": 0,
+    "cql_action": 2
+   },
+   {
+    "state": 14,
+    "test_share": 0.011645412681544457,
+    "top2_gap_aptq": 0.016721396144889877,
+    "top2_gap_cql": 0.010836330844311792,
+    "aptq_action": 0,
+    "cql_action": 4
+   },
+   {
+    "state": 287,
+    "test_share": 0.006287637265320581,
+    "top2_gap_aptq": 0.027485552946396652,
+    "top2_gap_cql": 0.13020178301549734,
+    "aptq_action": 5,
+    "cql_action": 1
+   },
+   {
+    "state": 166,
+    "test_share": 0.0006641870350690755,
+    "top2_gap_aptq": 0.11016533913808546,
+    "top2_gap_cql": 0.007413187656022835,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 68,
+    "test_share": 4.4279135671271696e-05,
+    "top2_gap_aptq": 0.04067762670368058,
+    "top2_gap_cql": 0.04070360232987502,
+    "aptq_action": 5,
+    "cql_action": 0
+   },
+   {
+    "state": 140,
+    "test_share": 4.4279135671271696e-05,
+    "top2_gap_aptq": 0.03126658928190085,
+    "top2_gap_cql": 0.052919103716799754,
+    "aptq_action": 5,
+    "cql_action": 1
+   },
+   {
+    "state": 351,
+    "test_share": 4.4279135671271696e-05,
+    "top2_gap_aptq": 0.13971886145195533,
+    "top2_gap_cql": 0.1463064780870722,
+    "aptq_action": 3,
+    "cql_action": 4
+   }
+  ]
+ },
+ {
+  "split": 20260728,
+  "seed": 2026,
+  "final_alpha": 0.05417472575677576,
+  "action_match_aptq": 0.5890597693114296,
+  "action_match_cql": 0.588954910870325,
+  "n_differing_states": 6,
+  "test_share_differing_states": 0.001223348479552604,
+  "differing_states": [
+   {
+    "state": 132,
+    "test_share": 0.0005941978329255506,
+    "top2_gap_aptq": 0.0068597189174672835,
+    "top2_gap_cql": 0.00906540137328804,
+    "aptq_action": 4,
+    "cql_action": 1
+   },
+   {
+    "state": 180,
+    "test_share": 0.0002796225096120238,
+    "top2_gap_aptq": 0.047606259007316964,
+    "top2_gap_cql": 0.003226948791494877,
+    "aptq_action": 1,
+    "cql_action": 0
+   },
+   {
+    "state": 128,
+    "test_share": 0.00020971688220901782,
+    "top2_gap_aptq": 0.00544828909815287,
+    "top2_gap_cql": 0.015321524410713216,
+    "aptq_action": 0,
+    "cql_action": 1
+   },
+   {
+    "state": 463,
+    "test_share": 0.0001398112548060119,
+    "top2_gap_aptq": 0.0,
+    "top2_gap_cql": 0.15947704716322217,
+    "aptq_action": 0,
+    "cql_action": 3
+   }
+  ]
+ }
+]

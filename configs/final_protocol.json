@@ -1,0 +1,101 @@
+{
+  "experiment_name": "ednet_kt4_target_scale_sensitivity_clean200k",
+  "purpose": "Reproduce the final clean 200,000-transition EdNet-KT4 tabular offline-RL experiments reported in the manuscript.",
+  "dataset": {
+    "source": "EdNet-KT4 and EdNet-Contents (obtained separately from the authorised source)",
+    "processed_csv": "DATA.csv",
+    "processed_csv_sha256": "9a11461d6db774fc43ee784650a4abd77af45ec110bae553d3cc16919f4248f9",
+    "max_users": 4000,
+    "max_transitions": 200000,
+    "min_transitions_per_user": 2,
+    "processed_learners": 2665,
+    "unique_states": 626,
+    "num_actions": 7,
+    "return_to_go_gamma": 0.99,
+    "state_variant": "basic",
+    "action_space": "question_part",
+    "reward_mode": "correctness",
+    "reward_correct": 1.0,
+    "reward_incorrect": -1.0
+  },
+  "split": {
+    "type": "learner-disjoint",
+    "fractions": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "primary_split_seed": 20260728,
+    "train": {
+      "learners": 1867,
+      "transitions": 132756
+    },
+    "validation": {
+      "learners": 399,
+      "transitions": 38634
+    },
+    "test": {
+      "learners": 399,
+      "transitions": 28610
+    },
+    "additional_split_seeds": [
+      1234,
+      5678,
+      9012
+    ]
+  },
+  "training": {
+    "selection_training_seed": 2026,
+    "final_training_seeds": [
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "epochs": 20,
+    "learning_rate": 0.08,
+    "gamma": 0.95
+  },
+  "aptq_inspired_scaled_rtg": {
+    "initial_alpha": 0.2,
+    "adaptation_learning_rate": 0.02,
+    "target_source": "return_to_go_quantile",
+    "target_transform": "scale",
+    "target_scale": 0.1,
+    "target_quantile": 0.9
+  },
+  "cql_controls": {
+    "high_pessimism_reference_alpha": 0.2,
+    "original_validation_selected_alpha": 0.05,
+    "fine_grid_minimum_alpha": 0.06,
+    "fine_grid_delta_mse_vs_alpha_005": 0.0012,
+    "final_alpha_matched": true,
+    "fine_grid": [
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06,
+      0.08,
+      0.1
+    ]
+  },
+  "evaluation": {
+    "fqe_learning_rate": 0.05,
+    "fqe_epochs": 60,
+    "learner_bootstrap_resamples": 1000,
+    "support_count_thresholds": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "reward_scale_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ]
+  }
+}

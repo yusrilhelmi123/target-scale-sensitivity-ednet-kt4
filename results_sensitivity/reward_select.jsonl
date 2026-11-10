@@ -1,0 +1,9 @@
+{"mult": 0.5, "scale": 0.05, "quant": 0.9, "seed": 2026, "final_alpha": 0.6199776612992157, "val_bellman": 0.7930265708570462, "val_match": 0.9002691929388621, "rt": 16.1}
+{"mult": 0.5, "scale": 0.1, "quant": 0.9, "seed": 2026, "final_alpha": 0.19296227471076272, "val_bellman": 0.6146975420091882, "val_match": 0.8695708443340063, "rt": 16.6}
+{"mult": 0.5, "scale": 0.2, "quant": 0.9, "seed": 2026, "final_alpha": 0.003152481062408752, "val_bellman": 0.5311014198488744, "val_match": 0.21025521561319047, "rt": 13.2}
+{"mult": 1.0, "scale": 0.05, "quant": 0.9, "seed": 2026, "final_alpha": 0.7812304585976961, "val_bellman": 2.187320755760684, "val_match": 0.8945747269244707, "rt": 18.8}
+{"mult": 1.0, "scale": 0.1, "quant": 0.9, "seed": 2026, "final_alpha": 0.05417472575677576, "val_bellman": 1.8551797523253903, "val_match": 0.6617746026815758, "rt": 18.9}
+{"mult": 1.0, "scale": 0.2, "quant": 0.9, "seed": 2026, "final_alpha": 0.0053562218167420815, "val_bellman": 2.0864230175731997, "val_match": 0.20753740228814, "rt": 14.6}
+{"mult": 2.0, "scale": 0.05, "quant": 0.9, "seed": 2026, "final_alpha": 1.1581775264410585, "val_bellman": 7.57623890038668, "val_match": 0.886783662059326, "rt": 19.1}
+{"mult": 2.0, "scale": 0.1, "quant": 0.9, "seed": 2026, "final_alpha": 0.1001238347932695, "val_bellman": 7.2144380307949785, "val_match": 0.6687114976445618, "rt": 18.7}
+{"mult": 2.0, "scale": 0.2, "quant": 0.9, "seed": 2026, "final_alpha": 0.008000790711349912, "val_bellman": 8.200328434593333, "val_match": 0.22192887094269295, "rt": 14.5}

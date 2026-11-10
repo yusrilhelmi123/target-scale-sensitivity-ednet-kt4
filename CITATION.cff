@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility archive, please cite the associated manuscript and archive record."
+title: "Reproducibility archive for Target-Scale Sensitivity in Adaptive Pessimism for Tabular Offline Reinforcement Learning: An EdNet-KT4 Study"
+type: software
+version: "1.2.0"
+date-released: 2026-11-10
+doi: 10.5281/zenodo.22984288
+repository-code: "https://github.com/yusrilhelmi123/target-scale-sensitivity-ednet-kt4"
+authors:
+  - family-names: "Setyawan"
+    given-names: "Muhammad Yusril Helmi"
+  - family-names: "Putratama"
+    given-names: "Virdiandry"
+  - family-names: "Rezza"
+    given-names: "Ali Mohammad"

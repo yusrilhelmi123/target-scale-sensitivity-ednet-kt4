@@ -1,0 +1,37 @@
+{
+  "aptq_norm_rtg": {
+    "eta": 0.02,
+    "initial_alpha": 0.2,
+    "quantile": 0.9,
+    "scale": 0.1,
+    "selection_final_alpha": 0.05417472575677576,
+    "validation_action_match": 0.6617746026815758,
+    "validation_bellman_mse": 1.8551797523253901
+  },
+  "cql_controls": {
+    "action_match_selected_alpha": 0.05,
+    "grid_alpha_closest_to_aptq_final": 0.05,
+    "reference_alpha": 0.2,
+    "validation_mse_selected_alpha": 0.05
+  },
+  "dataset_sha256": "9a11461d6db774fc43ee784650a4abd77af45ec110bae553d3cc16919f4248f9",
+  "schema_version": 1,
+  "selection_rule": {
+    "aptq": "minimum validation Bellman MSE; action match is tie-breaker",
+    "cql_action_match": "closest validation action match to selected APTQ",
+    "cql_val_mse": "minimum validation Bellman MSE",
+    "spibb": "maximum validation empirical-MDP value"
+  },
+  "selection_train_seed": 2026,
+  "spibb": {
+    "n_wedge": 2,
+    "validation_empirical_mdp_value": 17.156338051135684
+  },
+  "split_seed": 20260728,
+  "training": {
+    "epochs": 20,
+    "gamma": 0.95,
+    "learning_rate": 0.08,
+    "num_actions": 7
+  }
+}

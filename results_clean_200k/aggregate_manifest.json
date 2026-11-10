@@ -1,0 +1,33 @@
+{
+  "completed_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "metric_files": [
+    "seed_2026_metrics.csv",
+    "seed_2027_metrics.csv",
+    "seed_2028_metrics.csv",
+    "seed_2029_metrics.csv",
+    "seed_2030_metrics.csv"
+  ],
+  "paired_files": [
+    "seed_2026_paired.csv",
+    "seed_2027_paired.csv",
+    "seed_2028_paired.csv",
+    "seed_2029_paired.csv",
+    "seed_2030_paired.csv"
+  ],
+  "history_files": [
+    "seed_2026_histories.csv",
+    "seed_2027_histories.csv",
+    "seed_2028_histories.csv",
+    "seed_2029_histories.csv",
+    "seed_2030_histories.csv"
+  ],
+  "aggregate_metric_file": "all_seed_metrics.csv",
+  "aggregate_paired_file": "all_seed_paired.csv",
+  "status": "complete"
+}
